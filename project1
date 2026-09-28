@@ -1,0 +1,151 @@
+<section id="fixes" class="container" aria-labelledby="fixes-title">
+  <h2 id="fixes-title">Implemented Security Fixes</h2>
+  <p class="section-intro">Replace the four examples below with fixes your group actually implemented for the assigned scenario. Add one or two more cards only if you have a fifth or sixth implemented fix. Every section must show genuine project code and a repeatable demonstration.</p>
+
+  <div class="fix-list">
+    <article class="fix-card" id="fix-1">
+      <p class="fix-number">IMPLEMENTATION 01</p>
+      <h3>[Vulnerability and Fix 1 — e.g., SQL Injection Prevention]</h3>
+      <div class="fix-grid">
+        <div>
+          <p class="label">Vulnerability in the scenario</p>
+          <p>[Describe the affected feature, the unsafe behaviour, and its impact.]</p>
+          <p class="label">How we fixed it</p>
+          <p>[Explain the security control and how the application changed.]</p>
+          <p class="label">Actual implementation</p>
+          <p class="note">[Language] · [File path] · [Function or line numbers]</p>
+          <pre class="code-block"><code>[PASTE A SHORT EXCERPT OF YOUR ACTUAL FIX HERE]</code></pre>
+          <div class="actions">
+            <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/blob/main/PATH/TO/FILE">View Source Code</a>
+            <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/tree/main/tests">View Test</a>
+          </div>
+        </div>
+        <div>
+          <p class="label">Verification</p>
+          <p>Valid input: [expected and observed result].<br>Unsafe input: [expected and observed result].</p>
+          <p class="label">Live execution steps</p>
+          <ol><li>[Open the affected feature.]</li><li>[Perform a valid action.]</li><li>[Try the safe test case and show the protected result.]</li></ol>
+          <a class="button" href="https://YOUR-LIVE-APPLICATION.example/fix-1">Open Live Demo</a>
+          <p class="label">Video evidence</p>
+          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_VIDEO_ID_1" title="Fix 1 live execution demonstration" loading="lazy" allowfullscreen></iframe>
+          <p class="note">Implemented by: [Name] · Reviewed or tested by: [Name]</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="fix-card" id="fix-2">
+      <p class="fix-number">IMPLEMENTATION 02</p>
+      <h3>[Vulnerability and Fix 2 — e.g., Authentication]</h3>
+      <div class="fix-grid">
+        <div>
+          <p class="label">Vulnerability in the scenario</p>
+          <p>[Describe the affected feature, the unsafe behaviour, and its impact.]</p>
+          <p class="label">How we fixed it</p>
+          <p>[Explain the security control and how the application changed.]</p>
+          <p class="label">Actual implementation</p>
+          <p class="note">[Language] · [File path] · [Function or line numbers]</p>
+          <pre class="code-block"><code>[PASTE A SHORT EXCERPT OF YOUR ACTUAL FIX HERE]</code></pre>
+          <div class="actions">
+            <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/blob/main/PATH/TO/FILE">View Source Code</a>
+            <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/tree/main/tests">View Test</a>
+          </div>
+        </div>
+        <div>
+          <p class="label">Verification</p>
+          <p>Authorized request: [expected and observed result].<br>Invalid request: [expected and observed result].</p>
+          <p class="label">Live execution steps</p>
+          <ol><li>[Open the sign-in feature.]</li><li>[Show the valid flow.]</li><li>[Show how an invalid request is rejected.]</li></ol>
+          <a class="button" href="https://YOUR-LIVE-APPLICATION.example/fix-2">Open Live Demo</a>
+          <p class="label">Video evidence</p>
+          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_VIDEO_ID_2" title="Fix 2 live execution demonstration" loading="lazy" allowfullscreen></iframe>
+          <p class="note">Implemented by: [Name] · Reviewed or tested by: [Name]</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="fix-card" id="fix-3">
+      <p class="fix-number">IMPLEMENTATION 03</p>
+      <h3>[Vulnerability and Fix 3 — e.g., Access Control]</h3>
+      <div class="fix-grid">
+        <div>
+          <p class="label">Vulnerability in the scenario</p>
+          <p>[Describe the affected feature, the unsafe behaviour, and its impact.]</p>
+          <p class="label">How we fixed it</p>
+          <p>[Explain the security control and how the application changed.]</p>
+          <p class="label">Actual implementation</p>
+          <p class="note">[Language] · [File path] · [Function or line numbers]</p>
+          <pre class="code-block"><code>[PASTE A SHORT EXCERPT OF YOUR ACTUAL FIX HERE]</code></pre>
+          <div class="actions">
+            <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/blob/main/PATH/TO/FILE">View Source Code</a>
+            <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/tree/main/tests">View Test</a>
+          </div>
+        </div>
+        <div>
+          <p class="label">Verification</p>
+          <p>Permitted user: [expected and observed result].<br>Unauthorized user: [expected and observed result].</p>
+          <p class="label">Live execution steps</p>
+          <ol><li>[Sign in with a permitted demo account.]</li><li>[Show permitted access.]</li><li>[Switch to a restricted account and show the denial.]</li></ol>
+          <a class="button" href="https://YOUR-LIVE-APPLICATION.example/fix-3">Open Live Demo</a>
+          <p class="label">Video evidence</p>
+          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_VIDEO_ID_3" title="Fix 3 live execution demonstration" loading="lazy" allowfullscreen></iframe>
+          <p class="note">Implemented by: [Name] · Reviewed or tested by: [Name]</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="fix-card" id="fix-4">
+      <p class="fix-number">IMPLEMENTATION 04</p>
+      <h3>[Vulnerability and Fix 4 — e.g., Cross-Site Scripting Prevention]</h3>
+      <div class="fix-grid">
+        <div>
+          <p class="label">Vulnerability in the scenario</p>
+          <p>[Describe the affected feature, the unsafe behaviour, and its impact.]</p>
+          <p class="label">How we fixed it</p>
+          <p>[Explain the security control and how the application changed.]</p>
+          <p class="label">Actual implementation</p>
+          <p class="note">[Language] · [File path] · [Function or line numbers]</p>
+          <pre class="code-block"><code>[PASTE A SHORT EXCERPT OF YOUR ACTUAL FIX HERE]</code></pre>
+          <div class="actions">
+            <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/blob/main/PATH/TO/FILE">View Source Code</a>
+            <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/tree/main/tests">View Test</a>
+          </div>
+        </div>
+        <div>
+          <p class="label">Verification</p>
+          <p>Normal content: [expected and observed result].<br>Unsafe content: [expected and observed result].</p>
+          <p class="label">Live execution steps</p>
+          <ol><li>[Open the affected page.]</li><li>[Show normal content rendering.]</li><li>[Show that unsafe content is handled safely.]</li></ol>
+          <a class="button" href="https://YOUR-LIVE-APPLICATION.example/fix-4">Open Live Demo</a>
+          <p class="label">Video evidence</p>
+          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_VIDEO_ID_4" title="Fix 4 live execution demonstration" loading="lazy" allowfullscreen></iframe>
+          <p class="note">Implemented by: [Name] · Reviewed or tested by: [Name]</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="demonstration" class="container" aria-labelledby="demo-title">
+  <h2 id="demo-title">Run the System</h2>
+  <div class="panel">
+    <p>[State whether the application is available online or will be run locally during assessment. Provide the exact starting point and limited-privilege demo accounts if needed. Use sample data only.]</p>
+    <div class="actions">
+      <a class="button" href="https://YOUR-LIVE-APPLICATION.example">Launch Application</a>
+      <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY">View Group Repository</a>
+      <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY#readme">Local Setup Instructions</a>
+    </div>
+    <p class="note">GitHub Pages displays this evidence page. If the application needs a backend or database, deploy it separately or bring a running local copy for the live assessment. The videos supplement the live demonstration.</p>
+  </div>
+</section>
+
+<section id="resources" class="container" aria-labelledby="resources-title">
+  <h2 id="resources-title">Resources and Project Notes</h2>
+  <div class="panel">
+    <ul class="checklist">
+      <li>Application repository: <a href="https://github.com/USERNAME/REPOSITORY">[Repository Name]</a></li>
+      <li>Frameworks, libraries, and documentation: [List what the group actually used.]</li>
+      <li>Test data and reset instructions: [Link to the relevant README section.]</li>
+      <li>AI assistance acknowledgement: [State which tools were used and how the group reviewed their output.]</li>
+    </ul>
+  </div>
+</section>
