@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content=" A group Secure Programming e-Portfolio showing six vulnerability cases, source code, verification, and live demonstrations.">
   <title>[Project Name] | Secure Programming Group e-Portfolio</title>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <!-- If you edit the inline CSS block, recompute its SHA-256 hash in the CSP below. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'none'; style-src 'sha256-4W2FKIiLXvJPw6kRqt9elXHzXyVCDl4gvFXTMpqdDqE='; img-src 'self' data:; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
   <style>
     :root {
       --background: #f3f7fa;
@@ -309,26 +312,8 @@ footer a { color: white; }
   </header>
 
   <main id="main">
-    <section id="scenario" class="container" aria-labelledby="scenario-title">
-      <h2 id="scenario-title">Scenario</h2>
-      <article class="panel">
-        <h3>[Project Name]</h3>
-        <p><strong>Problem statement:</strong> [Describe the project problem in one or two sentences.]</p>
-        <p><strong>What we built:</strong> [Briefly describe the working system and the security improvements.]</p>
-        <p><strong>Project reflection:</strong> [Sentence 1 about the main implementation challenge.] [Sentence 2 about what the group learned while testing and correcting the vulnerabilities.]</p>
-        <div class="actions">
-          <a class="button" href="https://github.com/USERNAME/REPOSITORY">View on GitHub</a>
-          <a class="button secondary" href="https://YOUR-LIVE-APPLICATION.example">Open Live Application</a>
-        </div>
-        <p class="label">Project demonstration</p>
-        <iframe
-          class="video"
-          src="https://www.youtube.com/embed/REPLACE_PROJECT_VIDEO_ID"
-          title="Project overview and live execution"
-          loading="lazy"
-          allowfullscreen></iframe>
-      </article>
-      <h3>Group Members</h3>
+    <section id="team" class="container" aria-labelledby="team-title">
+      <h2 id="team-title">Group Members</h2>
       <p class="intro">Each contribution should identify actual implementation, testing, or demonstration work. Remove the fourth row if your group has three members.</p>
       <div class="panel table-scroll">
         <table>
@@ -369,6 +354,28 @@ footer a { color: white; }
         </table>
       </div>
     </section>
+    <section id="scenario" class="container" aria-labelledby="scenario-title">
+      <h2 id="scenario-title">Scenario</h2>
+      <article class="panel">
+        <h3>[Project Name]</h3>
+        <p><strong>Problem statement:</strong> [Describe the project problem in one or two sentences.]</p>
+        <p><strong>What we built:</strong> [Briefly describe the working system and the security improvements.]</p>
+        <p><strong>Project reflection:</strong> [Sentence 1 about the main implementation challenge.] [Sentence 2 about what the group learned while testing and correcting the vulnerabilities.]</p>
+        <div class="actions">
+          <a class="button" href="https://github.com/USERNAME/REPOSITORY">View on GitHub</a>
+          <a class="button secondary" href="https://YOUR-LIVE-APPLICATION.example">Open Live Application</a>
+        </div>
+        <p class="label">Project demonstration</p>
+        <iframe
+          class="video"
+          src="https://www.youtube-nocookie.com/embed/REPLACE_PROJECT_VIDEO_ID"
+          title="Project overview and live execution"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="encrypted-media; picture-in-picture; fullscreen"
+          allowfullscreen></iframe>
+      </article>
+    </section>
 
 <section id="vulnerability" class="container" aria-labelledby="cases-title">
   <h2 id="cases-title">Vulnerability</h2>
@@ -384,6 +391,7 @@ footer a { color: white; }
           <p>[Explain the login weakness, its effect, and the control your group implemented.]</p>
           <p class="label">Actual code implementation</p>
           <p class="note">[Language] · [Filename] · [Function or line numbers]</p>
+          <!-- Encode pasted source code as HTML text: & as &amp;, < as &lt;, > as &gt;. Never paste secrets, tokens, or live personal data. -->
           <pre class="code-block"><code>[PASTE A SHORT EXCERPT OF THE ACTUAL LOGIN FIX]</code></pre>
           <a class="button secondary" href="https://github.com/USERNAME/REPOSITORY/blob/main/PATH/TO/LOGIN/FILE">View Source Code</a>
           <p class="label">Reflection</p>
@@ -394,7 +402,7 @@ footer a { color: white; }
           <p>[State the valid login result, the invalid login result, and how the assessor can repeat both tests.]</p>
           <a class="button" href="https://YOUR-LIVE-APPLICATION.example/login">Run Login Test</a>
           <p class="label">Video demonstration</p>
-          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_CASE_1_VIDEO_ID" title="Case 1 login test demonstration" loading="lazy" allowfullscreen></iframe>
+          <iframe class="video" src="https://www.youtube-nocookie.com/embed/REPLACE_CASE_1_VIDEO_ID" title="Case 1 login test demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
           <p class="note">Implemented by: [Name] · Tested by: [Name]</p>
         </div>
       </div>
@@ -419,7 +427,7 @@ footer a { color: white; }
           <p>[Describe the test input, expected outcome, observed outcome, and steps to repeat the demonstration.]</p>
           <a class="button" href="https://YOUR-LIVE-APPLICATION.example/data-1">Run Data 1 Test</a>
           <p class="label">Video demonstration</p>
-          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_CASE_2_VIDEO_ID" title="Case 2 Data 1 demonstration" loading="lazy" allowfullscreen></iframe>
+          <iframe class="video" src="https://www.youtube-nocookie.com/embed/REPLACE_CASE_2_VIDEO_ID" title="Case 2 Data 1 demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
           <p class="note">Implemented by: [Name] · Tested by: [Name]</p>
         </div>
       </div>
@@ -444,7 +452,7 @@ footer a { color: white; }
           <p>[Describe the test input, expected outcome, observed outcome, and steps to repeat the demonstration.]</p>
           <a class="button" href="https://YOUR-LIVE-APPLICATION.example/data-2">Run Data 2 Test</a>
           <p class="label">Video demonstration</p>
-          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_CASE_3_VIDEO_ID" title="Case 3 Data 2 demonstration" loading="lazy" allowfullscreen></iframe>
+          <iframe class="video" src="https://www.youtube-nocookie.com/embed/REPLACE_CASE_3_VIDEO_ID" title="Case 3 Data 2 demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
           <p class="note">Implemented by: [Name] · Tested by: [Name]</p>
         </div>
       </div>
@@ -469,7 +477,7 @@ footer a { color: white; }
           <p>[Show that a valid query works and a safe, controlled injection test cannot change the query's intended behaviour.]</p>
           <a class="button" href="https://YOUR-LIVE-APPLICATION.example/sql-test">Run SQL Injection Test</a>
           <p class="label">Video demonstration</p>
-          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_CASE_4_VIDEO_ID" title="Case 4 SQL injection prevention demonstration" loading="lazy" allowfullscreen></iframe>
+          <iframe class="video" src="https://www.youtube-nocookie.com/embed/REPLACE_CASE_4_VIDEO_ID" title="Case 4 SQL injection prevention demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
           <p class="note">Implemented by: [Name] · Tested by: [Name]</p>
         </div>
       </div>
@@ -494,7 +502,7 @@ footer a { color: white; }
           <p>[Describe the valid and rejected behaviours, observed results, and repeatable demonstration steps.]</p>
           <a class="button" href="https://YOUR-LIVE-APPLICATION.example/case-5">Run Case 5 Test</a>
           <p class="label">Video demonstration</p>
-          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_CASE_5_VIDEO_ID" title="Case 5 security fix demonstration" loading="lazy" allowfullscreen></iframe>
+          <iframe class="video" src="https://www.youtube-nocookie.com/embed/REPLACE_CASE_5_VIDEO_ID" title="Case 5 security fix demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
           <p class="note">Implemented by: [Name] · Tested by: [Name]</p>
         </div>
       </div>
@@ -519,7 +527,7 @@ footer a { color: white; }
           <p>[Describe the valid and rejected behaviours, observed results, and repeatable demonstration steps.]</p>
           <a class="button" href="https://YOUR-LIVE-APPLICATION.example/case-6">Run Case 6 Test</a>
           <p class="label">Video demonstration</p>
-          <iframe class="video" src="https://www.youtube.com/embed/REPLACE_CASE_6_VIDEO_ID" title="Case 6 security fix demonstration" loading="lazy" allowfullscreen></iframe>
+          <iframe class="video" src="https://www.youtube-nocookie.com/embed/REPLACE_CASE_6_VIDEO_ID" title="Case 6 security fix demonstration" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
           <p class="note">Implemented by: [Name] · Tested by: [Name]</p>
         </div>
       </div>
@@ -556,7 +564,7 @@ footer a { color: white; }
     <p><strong>Local setup:</strong> <a href="https://github.com/USERNAME/REPOSITORY#readme">[README with installation, sample data, and run instructions]</a></p>
     <p><strong>APIs and libraries:</strong> [List the APIs, frameworks, libraries, and documentation actually used.]</p>
     <p><strong>AI assistance:</strong> [Identify any AI tools used and explain how the group checked their output.]</p>
-    <p class="note">GitHub Pages displays this portfolio but cannot run a backend or database. Host the application separately or prepare a running local copy for the live assessment. Use sample data and keep secrets out of the repository.</p>
+    <p class="note">GitHub Pages displays this portfolio but cannot run a backend or database. Host the application separately or prepare a running local copy for the live assessment. Use sample data and keep secrets out of the repository. Replace links with trusted HTTPS addresses, and escape code examples as text (for example, &lt; becomes &amp;lt;).</p>
   </div>
 </section>
     </main>
