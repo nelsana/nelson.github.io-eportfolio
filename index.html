@@ -290,8 +290,8 @@ footer a { color: white; }
       <a class="brand" href="#home">[Group Name]</a>
       <div class="nav-links">
         <a href="#home">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#labs">Vulnerability</a>
+        <a href="#scenario">Scenario</a>
+        <a href="#vulnerability">Vulnerability</a>
         <a href="#reflection">Reflection</a>
         <a href="#skills">Skills</a>
         <a href="#resources">Resources</a>
@@ -309,10 +309,28 @@ footer a { color: white; }
   </header>
 
   <main id="main">
-    <section id="team" class="container" aria-labelledby="team-title">
-      <h2 id="team-title">Group Members</h2>
+    <section id="scenario" class="container" aria-labelledby="scenario-title">
+      <h2 id="scenario-title">Scenario</h2>
+      <article class="panel">
+        <h3>[Project Name]</h3>
+        <p><strong>Problem statement:</strong> [Describe the project problem in one or two sentences.]</p>
+        <p><strong>What we built:</strong> [Briefly describe the working system and the security improvements.]</p>
+        <p><strong>Project reflection:</strong> [Sentence 1 about the main implementation challenge.] [Sentence 2 about what the group learned while testing and correcting the vulnerabilities.]</p>
+        <div class="actions">
+          <a class="button" href="https://github.com/USERNAME/REPOSITORY">View on GitHub</a>
+          <a class="button secondary" href="https://YOUR-LIVE-APPLICATION.example">Open Live Application</a>
+        </div>
+        <p class="label">Project demonstration</p>
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/REPLACE_PROJECT_VIDEO_ID"
+          title="Project overview and live execution"
+          loading="lazy"
+          allowfullscreen></iframe>
+      </article>
+      <h3>Group Members</h3>
       <p class="intro">Each contribution should identify actual implementation, testing, or demonstration work. Remove the fourth row if your group has three members.</p>
-      <div class=" panel table-scroll">
+      <div class="panel table-scroll">
         <table>
           <thead>
             <tr>
@@ -351,29 +369,9 @@ footer a { color: white; }
         </table>
       </div>
     </section>
-    <section id="projects" class="container" aria-labelledby="project-title">
-  <h2 id="project-title">Project Overview</h2>
-  <article class="panel">
-    <h3>[Project Name]</h3>
-    <p><strong>Problem statement:</strong> [Describe the project problem in one or two sentences.]</p>
-    <p><strong>What we built:</strong> [Briefly describe the working system and the security improvements.]</p>
-    <p><strong>Project reflection:</strong> [Sentence 1 about the main implementation challenge.] [Sentence 2 about what the group learned while testing and correcting the vulnerabilities.]</p>
-    <div class="actions">
-      <a class="button" href="https://github.com/USERNAME/REPOSITORY">View on GitHub</a>
-      <a class="button secondary" href="https://YOUR-LIVE-APPLICATION.example">Open Live Application</a>
-    </div>
-    <p class="label">Project demonstration</p>
-    <iframe
-      class="video"
-      src="https://www.youtube.com/embed/REPLACE_PROJECT_VIDEO_ID"
-      title="Project overview and live execution"
-      loading="lazy"
-      allowfullscreen></iframe>
-  </article>
-</section>
 
 <section id="vulnerability" class="container" aria-labelledby="cases-title">
-  <h2 id="cases-title">Vulnerability Solutions</h2>
+  <h2 id="cases-title">Vulnerability</h2>
   <p class="intro">These six cases show the actual code, verification results, and live execution for the assigned scenario. Replace every placeholder with your group's work. If only four or five cases were implemented, remove the unused cards.</p>
 
   <div class="case-list">
@@ -530,14 +528,14 @@ footer a { color: white; }
 </section>
 
 <section id="reflection" class="container" aria-labelledby="reflection-title">
-  <h2 id="reflection-title">Reflection and Learning Journey</h2>
+  <h2 id="reflection-title">Reflection</h2>
   <div class="panel">
     <p>[Sentence 1: Describe the most important vulnerability your group identified.] [Sentence 2: Explain how implementing the fixes changed your understanding of secure programming.] [Sentence 3: Describe what the tests and live demonstrations revealed.] [Sentence 4: State what the group would improve next.]</p>
   </div>
 </section>
 
 <section id="skills" class="container" aria-labelledby="skills-title">
-  <h2 id="skills-title">Skills and Tech Stack</h2>
+  <h2 id="skills-title">Skills</h2>
   <p class="intro">List only technologies and security practices used in the project.</p>
   <ul class="tag-list">
     <li>[Programming Language]</li>
@@ -551,7 +549,7 @@ footer a { color: white; }
 </section>
 
 <section id="resources" class="container" aria-labelledby="resources-title">
-  <h2 id="resources-title">Resources and Live Access</h2>
+  <h2 id="resources-title">Resources</h2>
   <div class="panel">
     <p><strong>Application repository:</strong> <a href="https://github.com/USERNAME/REPOSITORY">[GitHub Repository]</a></p>
     <p><strong>Live application:</strong> <a href="https://YOUR-LIVE-APPLICATION.example">[Live Application URL]</a></p>
